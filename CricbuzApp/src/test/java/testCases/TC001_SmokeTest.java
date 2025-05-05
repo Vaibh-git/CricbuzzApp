@@ -26,13 +26,13 @@ public class TC001_SmokeTest {
 	public void HomePageClick() {
 		HomePage page = new HomePage(driver);
 		page.Myaccount();
-		//page.Home_Btn();
+		page.Home_Btn();
 		
 	}
 	@AfterTest
 	public void GetUp() {
 		
-		//driver.close();
+        driver.close();
 	}
 
 }
